@@ -110,3 +110,15 @@ button img{
         display:block;
     }
 }
+
+@media screen and (max-width: 320px) {
+   .botao{
+   width: auto;
+   height: auto;
+   }
+   
+   a{
+    font-size: 1rem;
+   }
+   
+}
