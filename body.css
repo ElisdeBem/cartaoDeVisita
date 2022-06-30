@@ -41,3 +41,12 @@ body{
         padding: 88px 96px;
     }
 }
+
+@media screen and (max-width: 320px) {
+    
+    .container{
+        margin: 1rem;
+        height: 90vh;
+        width: 100wv;
+    }
+}
