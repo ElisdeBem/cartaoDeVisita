@@ -113,7 +113,6 @@ button img{
 
 @media screen and (max-width: 320px) {
    .botao{
-   width: auto;
    height: auto;
    }
    
