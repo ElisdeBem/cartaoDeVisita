@@ -18,3 +18,9 @@ footer a p{
         align-items: center;
     }
 }
+
+@media screen and (max-width: 320px) {
+   footer{
+      display: none;
+   }
+}
