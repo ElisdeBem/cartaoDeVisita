@@ -48,7 +48,7 @@ body{
     }
     
     .container{
-        margin: 1rem;
+        margin: 0;
         height: 90vh;
         width: 100wv;
     }
