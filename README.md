@@ -6,4 +6,5 @@ Pagina criado como um antigo cartão de visitas, para apresentação de redes so
 Projeto em HTML e CSS, para aplicar efeitos houver e Glassmorphism.
 
 Figma link: https://www.figma.com/file/EP3DBz1Ukgvu4OTH96ORUv/cdvMdeBem?node-id=0%3A1
+
 Link para visualizar pagina: https://elisdebem.github.io/cartaoDeVisita/
