@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body{
+    background-color: #161849;
+    background-image: url(../img/wallpaper3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    Background-position:center top;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100;
+    margin: 3rem 3rem;
+    background: rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.593), 2px 2px 50px rgba(0, 0, 0, 0.693);
+    border-radius: 10px;
+    padding: 24px 24px;
+}
+
+@media screen and (min-width: 1064px) {
+    body{
+        background-size: cover;
+    }
+
+    .container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 75vh;
+        margin: 4rem 6rem;
+        padding: 88px 96px;
+    }
+}

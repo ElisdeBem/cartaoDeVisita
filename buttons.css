@@ -1,0 +1,112 @@
+.botao{
+   width: 235px;
+   height: 68px;
+   background-color: rgba(255, 255, 255, 0.25);
+   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.393);
+   
+   border-radius: 8px;
+   border: none;
+   margin-bottom: .8rem; 
+   
+   display: flex;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+
+.botao:hover{
+    background-color: #c470a252;
+}
+
+.botao:hover> a{
+    font-size: 1.3rem;
+}
+
+a{
+    text-decoration: none;
+    color: #34276C;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.imagem{
+    display: inline-block;
+    vertical-align: middle;
+} 
+    
+    
+button img{ 
+    width: 50px;
+    margin: 0 8px;
+    align-items: flex-start;
+}
+
+.texto{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.textodesktop{
+    display: none;
+}
+
+.video{
+    width: 235px;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.393);
+    
+    padding:0.5rem 1.25rem;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: .8rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.youtubeflame{
+   
+    margin-bottom: 0.5rem;
+}
+
+.videodesktop{
+    display: none;
+}
+
+.video p{
+    font-size: 1rem;
+    margin-bottom: .8rem;
+}
+
+@media screen and (min-width: 1064px) {
+    .botao{
+        width: 171px;
+        height: 97px;
+        padding: 0.5rem;
+        flex-direction: column;
+        margin-bottom: 2.5rem; 
+    }
+
+    .video{
+        width: 340px;
+    }
+
+    .textomobile{
+        display: none;
+    }
+
+    .textodesktop{
+        display: inline-block;
+    }
+
+    .youtubeflame{
+        width: 300px;
+        height: 168.75px;
+    }
+
+    .videodesktop{
+        display:block;
+    }
+}
